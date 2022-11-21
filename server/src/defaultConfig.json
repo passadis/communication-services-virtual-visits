@@ -1,12 +1,12 @@
 {
-  "communicationServicesConnectionString": "endpoint=your_endpoint;accesskey=secret",
-  "microsoftBookingsUrl": "https://microsoftbookings.azurewebsites.net/?organization=financialservices&UICulture=en-US",
+  "communicationServicesConnectionString": "endpoint=https://solarkpmeet.communication.azure.com/;accesskey=VjV7AtKAU2jfMf07M18+olxHyNCr5U/CnE65sYYvNvDHiRHPJA54fjKY6rO1Ft8rYFXHCMHZy3RiaLbV26r96Q==",
+  "microsoftBookingsUrl": "https://outlook.office365.com/owa/calendar/SolarGame@securevoip.eu/bookings/",
   "chatEnabled": true,
-  "screenShareEnabled": true,
-  "companyName": "Lamna Healthcare",
-  "colorPalette": "#0078d4",
-  "waitingTitle": "Thank you for choosing Lamna Healthcare",
-  "waitingSubtitle": "Your clinician is joining the meeting",
+  "screenShareEnabled": false,
+  "companyName": "SolarMeet",
+  "colorPalette": "#282357",
+  "waitingTitle": "Thank you for choosing SolarMeet",
+  "waitingSubtitle": "Your expert is joining the meeting",
   "logoUrl": "",
   "postCall": {
     "survey": {
@@ -14,7 +14,7 @@
       "options": {
         "title": "Tell us how we did",
         "prompt": "How satisfied are you with this virtual appointment's audio and video quality?",
-        "pollType": "likeOrDislike",
+        "pollType": "rating",
         "saveButtonText": "Continue"
       }
     }
